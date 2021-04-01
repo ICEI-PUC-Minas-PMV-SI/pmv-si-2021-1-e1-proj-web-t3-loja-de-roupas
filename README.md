@@ -1,17 +1,20 @@
-# TÍTULO DO PROJETO
+# Sistema Web para Loja de Roupas
 
-`CURSO`
+`Curso: Sistema de Informação`
 
-`DISCIPLINA`
+`Disciplina: Projetos`
 
-`SEMESTRE`
+`Semestre: 01.2021`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+- Bruno Henrique Morais
+- Silvani Gomes
+- Theo Antolin
+- Marcio Jose Ferreira
+- Marcio Fonseca
 
 ## Professor
 
