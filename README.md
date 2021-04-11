@@ -18,7 +18,7 @@ Está sendo desenvolvido um sistema web para uma loja de roupas com o intuito de
 
 ## Professor
 
-- Mestre Yoda
+- Fábio Martins de Oliveira
 
 # Documentação
 
