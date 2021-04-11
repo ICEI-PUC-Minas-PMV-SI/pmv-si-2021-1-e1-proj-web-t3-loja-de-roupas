@@ -6,7 +6,7 @@
 
 `Semestre: 01.2021`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Está sendo desenvolvido um sistema web para uma loja de roupas com o intuito de ajudar a loja a ter um próprio sistema para fazer as vendas de suas roupas.
 
 ## Integrantes
 
