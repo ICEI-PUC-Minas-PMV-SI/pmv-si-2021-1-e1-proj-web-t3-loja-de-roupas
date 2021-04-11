@@ -1,6 +1,6 @@
 # Introdução
 
-Este trabalho apresenta de maneira detalhada a elaboração de um sistema web para uma loja de roupas, descrevendo quais passos são necessários para preparação e elaboração do projeto. Portanto, este trabalho pretende direcionar os discentes no caminho da produção do projeto, abordando todas as etapas e itens necessários para sua produção. Sendo assim, ele está dividio em quatro partes: problema, objetivos, justificativa e público-alvo. Desta forma, consiste em um guia que norteará o planejamento e a elaboração do sistema web.
+Este trabalho apresenta de maneira detalhada a elaboração de um sistema web para uma loja de roupas, descrevendo quais passos são necessários para preparação e elaboração do projeto. Portanto, este trabalho pretende direcionar os discentes no caminho da produção do projeto, abordando todas as etapas e itens necessários para sua produção. Sendo assim, ele está dividido em quatro partes: problema, objetivos, justificativa e público-alvo. Desta forma, consiste em um guia que norteará o planejamento e a elaboração do sistema web.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
