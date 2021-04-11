@@ -3,16 +3,7 @@
 Este trabalho apresenta de maneira detalhada a elaboração de um sistema web para uma loja de roupas, descrevendo quais passos são necessários para preparação e elaboração do projeto. Portanto, este trabalho pretende direcionar os discentes no caminho da produção do projeto, abordando todas as etapas e itens necessários para sua produção. Sendo assim, ele está dividido em quatro partes: problema, objetivos, justificativa e público-alvo. Desta forma, consiste em um guia que norteará o planejamento e a elaboração do sistema web.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Existe uma relação entre as marcas de roupas e o preço? Quais são os fatores que determinam a demanda dos produtos? Quais os efeitos de um sistema web sobre uma loja de roupas? Esses são uns dos problemas que serão resolvidos ao longo do projeto. O contexto desta aplicação será usado em uma empresa que é uma loja de roupas.
 
 ## Objetivos
 
