@@ -1,6 +1,6 @@
 # Sistema Web para Loja de Roupas
 
-`Curso: Sistema de Informação`
+`Curso: Sistemas de Informação`
 
 `Disciplina: Projetos`
 
@@ -11,10 +11,11 @@ Está sendo desenvolvido um sistema web para uma loja de roupas com o intuito de
 ## Integrantes
 
 - Bruno Henrique Morais
-- Silvani Gomes
-- Theo Antolin
+- Luiz Carlos Muschioni
 - Marcio Jose Ferreira
 - Marcio Fonseca
+- Silvani Gomes
+- Theo Antolin
 
 ## Professor
 
