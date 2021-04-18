@@ -3,12 +3,13 @@
 Este trabalho apresenta de maneira detalhada a elaboração de um sistema web para uma loja de roupas, descrevendo quais passos são necessários para preparação e elaboração do projeto. Portanto, este trabalho pretende direcionar os discentes no caminho da produção do projeto, abordando todas as etapas e itens necessários para sua produção. Sendo assim, ele está dividido em quatro partes: problema, objetivos, justificativa e público-alvo. Desta forma, consiste em um guia que norteará o planejamento e a elaboração do sistema web.
 
 ## Problema
-Existe uma relação entre as marcas de roupas e o preço? Quais são os fatores que determinam a demanda dos produtos? Quais os efeitos de um sistema web sobre uma loja de roupas? Esses são uns dos problemas que serão resolvidos ao longo do projeto. O contexto desta aplicação será usado em uma empresa que é uma loja de roupas.
+Existe uma relação entre as marcas de roupas e o preço? Quais são os fatores que determinam a demanda dos produtos? Quais os efeitos de um sistema web sobre uma loja de roupas? Como divulgar os produtos e promoções da loja? Como é o suporte ao cliente e como ele é oferecido? Quais são as formas de pagamento e como elas são oferecidas? Esses são alguns problemas que serão resolvidos ao longo do projeto. O contexto desta aplicação web será usado em uma empresa que é uma loja de roupas.
 
 ## Objetivos
 
-A finalidade do projeto: o objetivo geral é desenvolver um software para solucionar os problemas apresentados acima.
-Objetivos específicos: verificar a relação entre as marcas de roupas e o preço e quais são os fatores que determinam a demanda dos produtos.
+O objetivo geral é desenvolver um software para solucionar os problemas apresentados acima, assim como outros que podem ocorrer durante a elaboração do projeto.
+
+Os objetivos específicos são verificar a relação entre as marcas de roupas e o preço, divulgar os produtos e promoções da loja, averiguar os fatores que determinam a demanda dos produtos e oferecer suporte ao cliente de forma adequada.
 
 ## Justificativa
 
