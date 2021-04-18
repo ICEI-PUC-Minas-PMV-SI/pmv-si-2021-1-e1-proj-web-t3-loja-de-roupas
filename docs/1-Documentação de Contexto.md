@@ -17,4 +17,4 @@ O que impulsionou a realização deste sistema web foi entender que o processo d
 
 ## Público-Alvo
 
-O público-alvo da loja de roupas é formado por mulheres que têm entre 20 e 40 anos, com faixa de renda entre R$ 2.000,00 e R$ 5.000,00. Costumam realizar pesquisas em blogs e sites de roupas, com a intenção de compra, priorizando a qualidade em detrimento de preço, mas não dispensam uma boa promoção. Suas redes socias preferidas são o Instagram e Facebook.
+O público-alvo da loja de roupas é formado por mulheres que têm entre 20 e 40 anos, com faixa de renda entre R$ 2.000,00 e R$ 5.000,00 e que residem em capitais ou em regiões metropolitanas. Costumam realizar pesquisas em blogs e sites de roupas, às vezes com intenção de compra, na qual priorizam a qualidade em detrimento do preço, mas não dispensam uma boa promoção. Suas redes socias preferidas são Instagram e Facebook.
