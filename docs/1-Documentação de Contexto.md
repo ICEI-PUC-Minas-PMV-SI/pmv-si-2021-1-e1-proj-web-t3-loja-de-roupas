@@ -17,30 +17,4 @@ O que impulsionou a realização deste sistema web foi entender que o processo d
 
 ## Público-Alvo
 
-Público alvo da loja de roupas
-
-Gênero: mulheres
-
-Faixa etária: entre 20 e 30 anos
-
-Escolaridade: superior incompleto
-
-Faixa de renda: entre R$ 2 mil e R$ 5 mil
-
-Classe social: C e B
-
-Localização: residentes em capitais e regiões metropolitanas
-
-Hábitos de consumo: priorizem a qualidade em detrimento de preço, mas não dispensam uma boa promoção, além de terem o costume de pesquisar e comprar pela internet.
-
-Persona da loja de roupas
-
-No que trabalha: moda e propaganda
-
-Onde costuma comprar: internet
-
-Quais são as suas redes sociais preferidas: instagram e facebook
-
-Que tipo de conteúdo consome na internet: marcas de roupas
-
-Quais blogs e sites visita: blogs e sites que fazem análises de roupas e vendas de roupas
+O público-alvo da loja de roupas é formado por mulheres que têm entre 20 e 40 anos, com faixa de renda entre R$ 2.000,00 e R$ 5.000,00. Costumam realizar pesquisas em blogs e sites de roupas, com a intenção de compra, priorizando a qualidade em detrimento de preço, mas não dispensam uma boa promoção. Suas redes socias preferidas são o Instagram e Facebook.
