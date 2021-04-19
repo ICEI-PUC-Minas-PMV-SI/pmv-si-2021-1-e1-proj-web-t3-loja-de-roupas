@@ -4,8 +4,6 @@
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 Maria Alice tem 22 anos, é técnica em produção de moda e estagiária em um museu. Gosta de livros de literatura brasileira e usa ativamente o Instagram. Quer iniciar uma graduação em Moda para futuramente abrir seu ateliê de costura e poder criar seus próprios modelos. Não está muito satisfeita em seu atual emprego. Portanto, busca efetivamente conseguir um que se encaixe melhor com seu perfil para poder progredir na sua carreira. Procura por uma loja de roupas online para comprar modelos de roupas que possa ajudá-la na criação de seus moldes, como também para uso pessoal.
