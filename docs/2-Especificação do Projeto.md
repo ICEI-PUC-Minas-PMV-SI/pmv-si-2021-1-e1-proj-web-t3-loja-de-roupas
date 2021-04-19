@@ -8,19 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Maria Alice tem 22 anos, é técnica em produção de moda e estagiária em um museu. Gosta de livros de literatura brasileira e usa ativamente o Instagram. Quer iniciar uma graduação em Moda para futuramente abrir seu ateliê de costura e poder criar seus próprios modelos. Não está muito satisfeita em seu atual emprego. Portanto, busca efetivamente conseguir um que se encaixe melhor com seu perfil para poder progredir na sua carreira. Procura por uma loja de roupas online para que possa encontrar modelos de roupa que a auxilie na criação de seus moldes. A Loja de Roupas tem modelos de roupas em que Maria Alice pode visualizar e comprar e, a partir desses modelos ela poderá criar novas peças de roupas para sua própria coleção.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Rafaela tem 36 anos, é graduada em economia e gerente em um banco. Gosta de acompanhar sites noticiários como: brasil.elpais.com e g1.globo.com. Usa as redes socias LinkedIn e Instagram. Ela está satisfeita com sua vida de modo geral, tem um emprego que a deixa satisfeita e uma família harmoniosa. Porém, ela quer se sentir mais empoderada e deseja acabar com um incômodo pessoal a respeito do seu modo de vestir. Como ela acha que não se veste bem e constantemente realiza pesquisas na internet sobre novos visuais para se sentir confortável consigo mesma, ela tem vontade de encontrar um site que a satisfaça. A Loja de Roupas tem peças de roupas em que a Rafaela pode visualizar e comprar, de acordo com seu gosto pessoal, o que aumentará sua autoestima e autoconfiança.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Vânia tem 30 anos, é graduada em farmácia e fiscal de vigilância sanitária. Twitter, Instagram e Facebook são suas redes socias preferidas. Está satisfeita com a vida que tem, tanto no pessoal quanto no profissional. Ela é solteira e independente, gosta de sair para se divertir com quem ela ama, por isso está sempre atenta ao seu visual. Portanto, ela acessa blogs e sites de roupas para pesquisar promoções com frequência. Nos sites e blogs em que ela pesquisa as promoções, nem sempre o produto oferecido é coerente com o seu real desejo, ou seja, ela pesquisa, mas não encontra o que quer, o que gera frustração. A Loja de Roupas tem peças de roupas em que a Vânia pode visualizar e comprar, com ótimas promoções e conforme o gosto dela. A loja oferece cadastro de usuário, no qual ela pode escolher receber as promoções de produtos por e-mail e também ganhar desconto em compras.
 
 ## Histórias de Usuários
 
