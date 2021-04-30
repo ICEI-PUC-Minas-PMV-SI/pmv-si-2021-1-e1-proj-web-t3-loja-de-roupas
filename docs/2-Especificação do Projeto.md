@@ -56,7 +56,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o final do semestre até o dia 21/06 |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
