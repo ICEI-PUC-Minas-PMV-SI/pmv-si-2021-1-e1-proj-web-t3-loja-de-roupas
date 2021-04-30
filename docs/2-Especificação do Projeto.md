@@ -56,7 +56,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                                                         |
 |--|-----------------------------------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre no dia 10/07                |
+|01| O projeto deverá ser entregue até o final do semestre no dia 5/07                |
 |02| Não pode ser desenvolvido um módulo de backend                                    |
 |03| O projeto terá um limite de gasto no valor de R$ 100.000,00                       |
 |04| O limite máximo de profissionais que trabalham no projeto será de 5 pessoas       |
