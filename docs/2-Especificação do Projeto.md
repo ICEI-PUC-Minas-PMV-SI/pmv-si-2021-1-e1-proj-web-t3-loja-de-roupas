@@ -60,4 +60,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend                                    |
 |03| O projeto terá um limite de gasto no valor de R$ 100.000,00                       |
 |04| O limite máximo de profissionais que trabalham no projeto será de 5 pessoas       |
+
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
