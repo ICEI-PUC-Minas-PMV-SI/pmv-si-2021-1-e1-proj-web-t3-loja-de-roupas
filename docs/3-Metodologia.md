@@ -59,13 +59,7 @@ Todos os dias 15 minutos antes de começar a jornada de trabalho, o Product Owne
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Foi adicionado na aba Projects no github todos os backlogs, coisas a serem feitas pelo grupo (to do), coisas que estão em progresso (in progress) e coisas que já foram feitas (done).
 
 ### Ferramentas
 
