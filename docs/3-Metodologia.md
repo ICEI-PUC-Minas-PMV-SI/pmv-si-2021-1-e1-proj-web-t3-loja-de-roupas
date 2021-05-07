@@ -75,4 +75,4 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-A ferramente que foi usada para o desenvolvimento do projeto foi o Github. Um site muito prático onde pessoas podem trabalhar em grupo, armazenando textos de coisas que vão ser feitas e também coisas que já foram feitas para ser realizado o projeto web.
+A ferramenta que foi usada para o desenvolvimento do projeto foi o Github. Um site muito prático onde pessoas podem trabalhar em grupo, armazenando textos de coisas que vão ser feitas e também coisas que já foram feitas para ser realizado o projeto web.
