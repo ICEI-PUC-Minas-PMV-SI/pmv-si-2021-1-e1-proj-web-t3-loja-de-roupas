@@ -38,9 +38,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Poder criar conta no site usando login e senha | ALTA |
-|RF-004| Garantia de produtos para o cliente | MÉDIA |
-|RF-005| Atendimento ao cliente | MÉDIA |
+|RF-003| Usuário poder criar conta no site usando login e senha | ALTA |
+|RF-004| Garantia de produtos para o cliente | ALTA |
+|RF-005| Atendimento ao cliente | ALTA |
 |RF-006| Cliente poder dar o feedback do produto | MÉDIA |
 
 
@@ -48,11 +48,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
 |RNF-003| Coletar dados estatísticos de usuários | MÉDIA |
 |RNF-004| Adicionar um sistema anti-hacker | ALTA |
-|RNF-005| Adicionar um bom servidor | MÉDIA |
+|RNF-005| Adicionar um bom servidor | ALTA |
+|RNF-006| Organizar bem o index da página para que o usuário possa navegar entre os conteúdos da página sem nenhum problema | ALTA |
+
 
 ## Restrições
 
@@ -63,6 +65,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre no dia 5/07                 |
 |02| Não pode ser desenvolvido um módulo de backend                                    |
 |03| O projeto terá um limite de gasto no valor de R$ 100.000,00                       |
-|04| O limite máximo de profissionais que trabalham no projeto será de 5 pessoas       |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+|04| O limite máximo de profissionais que trabalham no projeto é de 5 pessoas       |
