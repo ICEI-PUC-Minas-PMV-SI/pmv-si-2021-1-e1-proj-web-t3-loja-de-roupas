@@ -1,12 +1,13 @@
-# Sistema Web para Loja de Roupas
+# Sistema Web para Loja de Roupas Femininas
 
 `Curso: Sistemas de Informação`
 
-`Disciplina: Projetos`
+`Disciplina: Projeto - Aplicações Web`
 
-`Semestre: 01.2021`
+`Semestre: 1° semestre de 2021`
 
-Está sendo desenvolvido um sistema web para uma loja de roupas com o intuito de ajudar a loja a ter um próprio sistema para fazer as vendas de suas roupas.
+Desenvolvimento de um sistema web para uma loja de roupas femininas com o intuito de ajudar a loja a ter seu próprio sistema.
+
 
 ## Integrantes
 
