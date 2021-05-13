@@ -11,18 +11,16 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branchs:
 
-- `master`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `documentation`: melhorias e adições para a documentação do projeto
+- `video`: video apresentando as soluções do projeto
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `backlog`: melhorias ou acréscimos à documentação
+- `to do`: uma funcionalidade encontra-se para ser feita
+- `in progress`: uma funcionalidade está sendo feita
+- `done`: uma funcionalidade foi feita
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -45,11 +43,11 @@ Scrum Master: Theo Antolin. Ele vai orientar o restante da equipe em relação �
 
 Product Backlog: É formado por funcionalidades imprescindíveis, funcionalidades importantes e funcionalidades que seria bom ter. Funcionalidades imprescindíveis: garantia de produtos para o cliente, usuário poder criar conta no site usando login e senha, atendimento ao cliente. Funcionalidades importantes: coletar dados estatísticos de usuários, o sistema deve ser responsivo para rodar em um dispositivo móvel. Funcionalidades que seria bom ter: cliente poder dar o feedback do produto, emitir um relatório de tarefas no mês.
 
-Planejamento do Sprint: Em até no máximo 2 semanas deverá ser feito as funcionalidades imprescindíveis. Em até no máximo 4 semanas deverá ser feito as funcionalidades importantes. Em até no máximo 6 semanas deverá ser feito as funcionalidades que seria bom ter. Todos os dias 15 minutos antes de começar a jornada de trabalho, o Product Owner, a Equipe Scrum e o Scrum Master irão se reunir para conversar sobre o que foi feito no dia anterior, o que vai ser feito no dia atual e se tem algum impedimento.
-
 ### Processo
 
 Foi adicionado na aba Projects no GitHub todos os backlogs, coisas a serem feitas pelo grupo (to do), coisas que estão em progresso (in progress) e coisas que já foram feitas (done).
+
+Planejamento do Sprint: Em até no máximo o dia 05/07/2021 deverá ser feito todas as sprints. Em até no máximo o dia 02/05/2021 deverá ser feito a sprint 0 (etapa 1). Em até no máximo o dia 17/05/2021 deverá ser feito a sprint 1 (etapa 2). Em até no máximo o dia 07/06/2021 deverá ser feito a sprint 2 (etapa 3). Em até no máximo o dia 28/06/2021 deverá ser feito a sprint 3 (etapa 4). Em até no máximo o dia 05/07/2021 deverá ser feito a sprint 4 (etapa 5).
 
 ### Ferramentas
 
