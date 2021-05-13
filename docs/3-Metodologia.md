@@ -11,16 +11,16 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branchs:
 
-- `documentation`: melhorias e adições para a documentação do projeto
-- `video`: video apresentando as soluções do projeto
+- `master`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `testing`: versão em testes do software
+- `dev`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `backlog`: melhorias ou acréscimos à documentação
-- `to do`: uma funcionalidade encontra-se para ser feita
-- `in progress`: uma funcionalidade está sendo feita
-- `done`: uma funcionalidade foi feita
+- `documentation`: melhorias e adições para a documentação do projeto
+- `video`: video apresentando as soluções do projeto
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
