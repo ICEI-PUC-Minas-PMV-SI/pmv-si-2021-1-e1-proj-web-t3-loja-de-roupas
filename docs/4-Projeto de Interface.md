@@ -26,6 +26,10 @@ https://www.figma.com/file/F2UUXfbeisdWmCwgaTm7hV/Loja-de-Roupas?node-id=0%3A1
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
+
+![Exemplo wireframe pagina inicial](img/Loja de Roupas-Pagina Inicial.pdf)
+Wireframe da página inicial
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
