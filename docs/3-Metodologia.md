@@ -46,8 +46,8 @@ As ferramentas empregadas no projeto são:
 
 - Editor de código: GitHub, VS Code.
 - Ferramentas de comunicação: Microsoft Teams, WhatsApp.
-- Ferramentas de diagramação: Adobe InDesign.
+- Ferramentas de diagramação: Adobe InDesign e Figma.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essas ferramentas por melhor captarem as necessidades da nossa solução.
 
 A ferramenta usada para o desenvolvimento do projeto é o Github. Um site muito prático onde pessoas podem trabalhar em grupo, armazenando textos e demandas que precisam ser feitas e também tarefas que já foram finalizadas durante a realização do projeto.
