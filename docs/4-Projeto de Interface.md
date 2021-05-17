@@ -35,17 +35,17 @@ Wireframes das principais interfaces da plataforma com descrições dos requisit
 
 ### Wireframe da página de conta do usuário
 
-> "Logotipo" redireciona o usuário para a página inicial do site.
-> "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome. Ao digitar o nome do produto e finalizar a busca, o usuário é redirecionado para a página inicial.
-> "Perfil da Conta" permite que o usuário cadastre seus dados pessoais para realizar abertura de conta no site. Caso o usuário tenha conta no site, existe um botão <Log In> para acessar sua conta no site.
-> "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
-> "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
-> "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
-> "Frete" permite que o usuário clique e visualize quais são as regras de frete.
-> "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
-> "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
-> "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
-> "Informações" permite que o usuário visualize as informações da Loja de Roupas.
+> - "Logotipo" redireciona o usuário para a página inicial do site.
+> - "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome. Ao digitar o nome do produto e finalizar a busca, o usuário é redirecionado para a página inicial.
+> - "Perfil da Conta" permite que o usuário cadastre seus dados pessoais para realizar abertura de conta no site. Caso o usuário tenha conta no site, existe um botão <Log In> para acessar sua conta no site.
+> - "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
+> - "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
+> - "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
+> - "Frete" permite que o usuário clique e visualize quais são as regras de frete.
+> - "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
+> - "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
+> - "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
+> - "Informações" permite que o usuário visualize as informações da Loja de Roupas.
 
 ![Exemplo wireframe pagina conta](img/pagina-conta.png)
 
