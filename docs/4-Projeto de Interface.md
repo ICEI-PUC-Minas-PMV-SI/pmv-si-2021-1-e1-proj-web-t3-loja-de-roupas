@@ -17,19 +17,19 @@ Wireframes das principais interfaces da plataforma com descrições dos requisit
 
 ### Wireframe da página inicial
 
-> "Logotipo" redireciona o usuário para a página inicial do site.
-> "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome.
-> "Categorias" permite que o usuário selecione o produto desejado através de diversas categorias como: tipo de roupa, cor, estilo e preço.
-> "Histórico de Seleção de Itens" permite que o usuário visualize a combinação de categorias escolhidas do produto, tanto pela funcionalidade "Procurar no site" quanto em "Categorias".
-> "Vitrine Virtual" permite que o usuário visualize a imagem do produto pesquisado e uma breve descrição dele. O usuário pode clicar no produto e ser redirecionado para a página do produto onde pode adicioná-lo ao "Carrinho" ou aos "Favoritos".
-> "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
-> "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
-> "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
-> "Frete" permite que o usuário clique e visualize quais são as regras de frete.
-> "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
-> "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
-> "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
-> "Informações" permite que o usuário visualize as informações da Loja de Roupas.
+> - "Logotipo" redireciona o usuário para a página inicial do site.
+> - "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome.
+> - "Categorias" permite que o usuário selecione o produto desejado através de diversas categorias como: tipo de roupa, cor, estilo e preço.
+> - "Histórico de Seleção de Itens" permite que o usuário visualize a combinação de categorias escolhidas do produto, tanto pela funcionalidade "Procurar no site" quanto em "Categorias".
+> - "Vitrine Virtual" permite que o usuário visualize a imagem do produto pesquisado e uma breve descrição dele. O usuário pode clicar no produto e ser redirecionado para a página do produto onde pode adicioná-lo ao "Carrinho" ou aos "Favoritos".
+> - "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
+> - "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
+> - "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
+> - "Frete" permite que o usuário clique e visualize quais são as regras de frete.
+> - "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
+> - "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
+> - "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
+> - "Informações" permite que o usuário visualize as informações da Loja de Roupas.
 
 ![Exemplo wireframe pagina inicial](img/pagina-inicial.png)
 
@@ -51,16 +51,16 @@ Wireframes das principais interfaces da plataforma com descrições dos requisit
 
 ### Wireframe da página carrinho de compras
 
-> "Logotipo" redireciona o usuário para a página inicial do site.
-> "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome. Ao digitar o nome do produto e finalizar a busca, o usuário é redirecionado para a página inicial.
-> "Carrinho" permite que o usuário visualize os produtos selecionados na "Vitrine Virtual" ou na página do produto após ter clicado no botão <Comprar>. Essa funcionalidade tem interação direta com "Favoritos", onde o usuário pode adicionar produtos interessantes e posteriormente adicioná-los ao "Carrinho" para finalizar a compra.
-> "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
-> "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
-> "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
-> "Frete" permite que o usuário clique e visualize quais são as regras de frete.
-> "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
-> "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
-> "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
-> "Informações" permite que o usuário visualize as informações da Loja de Roupas.
+> - "Logotipo" redireciona o usuário para a página inicial do site.
+> - "Procurar no site" permite que o usuário pesquise um produto desejado digitando seu nome. Ao digitar o nome do produto e finalizar a busca, o usuário é redirecionado para a página inicial.
+> - "Carrinho" permite que o usuário visualize os produtos selecionados na "Vitrine Virtual" ou na página do produto após ter clicado no botão <Comprar>. Essa funcionalidade tem interação direta com "Favoritos", onde o usuário pode adicionar produtos interessantes e posteriormente adicioná-los ao "Carrinho" para finalizar a compra.
+> - "Conta" redireciona o usuário para a página onde ele pode criar uma conta ou acessar a conta no site.
+> - "Carrinho" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados ao carrinho.
+> - "Favoritos" redireciona o usuário para a página onde ele pode visualizar os produtos adicionados a uma lista de pré-compra.
+> - "Frete" permite que o usuário clique e visualize quais são as regras de frete.
+> - "Formas de Pagamento" permite que o usuário clique e visualize quais são as formas de pagamento.
+> - "Formas de Parcelamento" permite que o usuário clique e visualize quais são as formas para realizar pagamento parcelado.
+> - "Troca do Produto" permite que o usuário clique e visualize quais são as formas de realizar a troca do produto.
+> - "Informações" permite que o usuário visualize as informações da Loja de Roupas.
 
 ![Exemplo wireframe pagina carrinho](img/pagina-carrinho.png)
