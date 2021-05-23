@@ -16,14 +16,14 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Como Maria Alice         | eu quero comprar modelos de roupas                     | para que eu possa criar meus próprios moldes|
+|Como Maria Alice         | eu quero comprar modelos de roupas          | para que eu possa criar meus próprios moldes|
 |Como Maria Alice         | eu quero comprar roupas                     | para eu mesma usar|
-|Como Rafaela             | eu quero comprar roupas                     | que satisfaçam meu gosto e aumentem a minha auto-estima|
+|Como Rafaela             | eu quero renovar meu visual                 | comprando roupas novas|
 |Como Rafaela             | eu quero comprar roupas                     | com desconto|
 |Como Vânia               | eu quero comprar roupas                     | em promoção|
-|Como Vânia               | eu quero comprar roupas                     | que satisfaçam meu gosto|
-|Como Vânia               | eu quero comprar roupas                     | com desconto e com pagamento parcelado|
-|Como Vânia               | eu quero conseguir cadastrar mais de um produto no carrinho | para não ter que ficar voltando na página anterior e fazer um novo pedido |
+|Como Vânia               | eu quero ganhar desconto quando comprar mais de uma roupa     | para conseguir comprar mais uma roupa com o desconto que ganhei|
+|Como Cliente             | eu quero renovar o guarda-roupa             | ter roupas de moda|
+|Como Cliente             | eu quero conseguir cadastrar mais de um produto no carrinho | para não ter que ficar voltando na página anterior e fazer um novo pedido |
 |Como administrador       | eu preciso permitir o cadastro de mais de um produto no carrinho | para que o usuário possa acrescentar quantos produtos quiser em sua compra|
 |Como administrador       | eu preciso alterar as permissões de conta de usuário | para que o usuário possa administrar sua conta|
 |Como usuário do sistema  | eu preciso registrar minhas tarefas           | para não esquecer de fazê-las |
@@ -36,12 +36,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Usuário poder adicionar produtos ao carrinho | ALTA | 
+|RF-002| Usuário poder procurar produto digitando o nome dele   | MÉDIA |
 |RF-003| Usuário poder criar conta no site usando login e senha | ALTA |
 |RF-004| Garantia de produtos para o cliente | ALTA |
 |RF-005| Atendimento ao cliente | ALTA |
 |RF-006| Cliente poder dar o feedback do produto | MÉDIA |
+|RF-007| Usuário poder selecionar produto com caixa checkbox | ALTA |
+|RF-008| Usuário poder escolher a forma de pagamento | MÉDIA |
+|RF-009| Permitir que o usuário troque o produto | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -51,8 +54,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
 |RNF-003| Coletar dados estatísticos de usuários | MÉDIA |
-|RNF-004| Adicionar um sistema anti-hacker | ALTA |
-|RNF-005| Adicionar um bom servidor | ALTA |
+|RNF-004| Sistema vai cadastar no histórico de seleção de itens os produtos que o usuário procurar | ALTA |
+|RNF-005| Adicionar no site uma vitrine virtual | MÉDIA |
 |RNF-006| Organizar bem o index da página para que o usuário possa navegar entre os conteúdos da página sem nenhum problema | ALTA |
 
 
@@ -63,6 +66,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                                                         |
 |--|-----------------------------------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre no dia 5/07                 |
-|02| Não pode ser desenvolvido um módulo de backend                                    |
-|03| O projeto terá um limite de gasto no valor de R$ 100.000,00                       |
-|04| O limite máximo de profissionais que trabalham no projeto é de 5 pessoas       |
+|02| O projeto terá um limite de gasto no valor de R$ 100.000,00                       |
+|03| O limite máximo de profissionais que trabalham no projeto é de 5 pessoas          |
