@@ -16,15 +16,15 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Como Maria Alice         | eu quero comprar modelos de roupas          | para poder criar meus próprios moldes|
-|Como Rafaela             | eu quero ganhar desconto na compra de roupas          | quando realizo pagamento à vista |
-|Como Vânia               | eu quero comprar roupas em promoção    | para conseguir comprar uma quantidade maior |
-|Como cliente             | eu quero comprar roupas de moda            | para renovar meu guarda-roupa|
-|Como administrador       | eu preciso permitir a procura e seleção de produtos | de modo que o usuário consiga visualizá-los na vitrine virtual|
-|Como cliente             | eu quero cadastrar mais de um produto no carrinho | de forma que eu consiga escolher mais um produto sem finalizar a compra |
-|Como administrador       | eu preciso permitir o cadastro de produtos no carrinho ou no favoritos | para que o usuário possa acrescentar quantos produtos quiser|
-|Como administrador       | eu preciso alterar as permissões de conta de usuário | para que o usuário consiga criar e administrar uma conta no site|
-|Como administrador       | eu preciso permitir a visualização de informações gerais da loja | de forma que o usuário consiga visualizá-las clicando em textos e botões|
+|Como Maria Alice    | eu quero comprar modelos de roupas         | para poder criar meus próprios moldes|
+|Como Rafaela        | eu quero ganhar desconto na compra de roupas          | quando realizo pagamento à vista |
+|Como Vânia          | eu quero comprar roupas em promoção    | para conseguir comprar uma quantidade maior |
+|Como cliente        | eu quero comprar roupas de moda            | para renovar meu guarda-roupa|
+|Como administrador  | eu preciso permitir a procura e seleção de produtos | de modo que o usuário consiga visualizá-los<br>na vitrine virtual|
+|Como cliente        | eu quero cadastrar mais de um produto no carrinho | de forma que eu consiga escolher mais um<br>produto sem finalizar a compra |
+|Como administrador  | eu preciso permitir o cadastro de produtos<br>no carrinho ou no favoritos | para que o usuário possa acrescentar quantos<br>produtos quiser|
+|Como administrador  | eu preciso alterar as permissões de conta de usuário | para que o usuário consiga criar e administrar<br>uma conta no site|
+|Como administrador  | eu preciso permitir a visualização de informações<br>gerais da loja | de forma que o usuário consiga visualizá-las<br>clicando em textos e botões|
 
 ## Requisitos
 
