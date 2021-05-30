@@ -34,16 +34,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Usuário poder adicionar produtos ao carrinho | ALTA | 
-|RF-002| Usuário poder procurar produto digitando o nome dele   | MÉDIA |
-|RF-003| Usuário poder criar conta no site usando login e senha | ALTA |
-|RF-004| Garantia de produtos para o cliente | ALTA |
-|RF-005| Atendimento ao cliente | ALTA |
-|RF-006| Cliente poder dar o feedback do produto | MÉDIA |
-|RF-007| Usuário poder selecionar produto com caixa checkbox | ALTA |
-|RF-008| Usuário poder escolher a forma de pagamento | MÉDIA |
-|RF-009| Permitir que o usuário troque o produto | ALTA |
-
+|RF-001| Usuário pode criar conta no site após preencher formulário de cadastro | ALTA |
+|RF-002| Usuário pode acessar conta no site utilizando login e senha | ALTA |
+|RF-003| Usuário com conta no site recebe descontos e visualiza promoções diferentes | ALTA |
+|RF-004| Usuário com conta no site tem direito a formas de pagamento diferentes | ALTA |
+|RF-005| Usuário pode procurar produto pelo nome em caixa de pesquisa | ALTA |
+|RF-006| Usuário pode selecionar produto por categoria em caixa checkbox | ALTA |
+|RF-007| Usuário pode retirar produto adicionado ao histórico de itens clicando no "x" | MÉDIA |
+|RF-008| Usuário pode adicionar produtos da vitrine virtual ao carrinho | ALTA |
+|RF-009| Usuário pode adicionar produtos da vitrine virtual ao favoritos | MÉDIA |
+|RF-010| Usuário pode dar feedback do produto | MÉDIA |
+|RF-011| Usuário pode escolher a forma de pagamento | ALTA |
+|RF-012| Usuário pode solicitar troca do produto na garantia legal | MÉDIA |
+|RF-013| Usuário pode clicar em texto no rodapé da página e visualizar regras de frete | BAIXA |
+|RF-014| Usuário pode clicar em texto no rodapé da página e visualizar formas de pagamento | BAIXA |
+|RF-015| Usuário pode clicar em texto no rodapé da página e visualizar formas de parcelamento | BAIXA |
+|RF-016| Usuário pode clicar em texto no rodapé da página e visualizar como trocar o produto | BAIXA |
+|RF-017| Usuário pode clicar em texto no rodapé da página e visualizar informações da loja | BAIXA |
 
 ### Requisitos não Funcionais
 
