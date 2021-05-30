@@ -59,10 +59,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivo móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  ALTA |
 |RNF-003| Coletar dados estatísticos de usuários | MÉDIA |
-|RNF-004| Sistema vai cadastar no histórico de seleção de itens os produtos que o usuário procurar | ALTA |
-|RNF-005| Adicionar no site uma vitrine virtual | MÉDIA |
-|RNF-006| Organizar bem o index da página para que o usuário possa navegar entre os conteúdos da página sem nenhum problema | ALTA |
-
+|RNF-004| Cadastar no histórico de seleção de itens os produtos que o usuário procurar e/ou selecionar | ALTA |
+|RNF-005| Adicionar vitrine virtual com produtos procurados e/ou selecionados pelo usuário | ALTA |
+|RNF-006| Assegurar que as páginas estejam funcionando corretamente para que o usuário navegue sem problema | ALTA |
+|RNF-007| Oferecer suporte adequado ao usuário | ALTA |
+|RNF-008| Conceder garantia legal de produtos para clientes | ALTA |
 
 ## Restrições
 
