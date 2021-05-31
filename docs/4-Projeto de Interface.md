@@ -5,15 +5,19 @@ Visão geral da interação do usuário pelas telas do sistema (User Flow) e pro
 
 ## User Flow
 
-Fluxo de Usuário (User Flow) das principais telas do site. Demonstração dos caminhos que o usuário pode seguir entre as telas do site e possíveis ações nas respectivas telas.
+Fluxo de Usuário (User Flow) das telas página inicial, conta e carrinho do site. Demonstração dos caminhos que o usuário pode seguir entre as telas do site e possíveis ações nas respectivas telas.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/Loja-Roupas-User-Flow.png)
+
+[Protótipo interativo](https://www.figma.com/proto/PWUs4185xGykDG6wF7dE0f/Loja-de-Roupas-User-Flow?node-id=107%3A167&scaling=contain&page-id=107%3A4) do fluxo de usuário na tela de um smartphone Android (360x640 px).
+
+[Fluxo de usuário](https://www.figma.com/file/PWUs4185xGykDG6wF7dE0f/Loja-de-Roupas-User-Flow?node-id=107%3A4) desenvolvido pela equipe na plataforma Figma.
 
 ## Wireframes
 
-Wireframes das principais interfaces da plataforma com descrições dos requisitos funcionais e requisitos não funcionais que atendem as histórias de usuários descritas nas [Especificações do Projeto.](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-loja-de-roupas/blob/main/docs/2-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
+Wireframes das principais interfaces da plataforma com descrições dos requisitos funcionais e requisitos não funcionais que atendem as histórias de usuários descritas nas [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-loja-de-roupas/blob/main/docs/2-Especifica%C3%A7%C3%A3o%20do%20Projeto.md).
 
-[Wireframes desenvolvidos pela equipe na plataforma Figma](https://www.figma.com/file/F2UUXfbeisdWmCwgaTm7hV/Loja-de-Roupas?node-id=0%3A1)
+[Wireframes](https://www.figma.com/file/F2UUXfbeisdWmCwgaTm7hV/Loja-de-Roupas-Wireframes?node-id=11%3A74) desenvolvidos pela equipe na plataforma Figma.
 
 ### Wireframe da página inicial
 
