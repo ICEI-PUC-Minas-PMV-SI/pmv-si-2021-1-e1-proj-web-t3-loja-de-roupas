@@ -1,7 +1,5 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de componentes
@@ -13,65 +11,39 @@ Exemplo:
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
 ![Diagrama de Componentes](img/componentes.png)
+`ALTERAR IMAGEM`
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+   - **Local Storage** - armazenamento persistente mantido no Navegador, onde são implementados bancos de dados baseados em JSON. Armazenamento destinado ao usuário sem cadastro no site. Os bancos de dados são: 
+     - **Formulários** - formulário de cadastro de usuário, formulário de pagamento
+     - **Produtos** - interação do usuário com informações dos produtos da loja
+     - **Comentários** - feedback do produto feito pelo usuário
+   - **Session Storage** - armazenamento não persistente mantido no Navegador, onde são implementados bancos de dados baseados em JSON. Armazenamento destinado ao usuário com cadastro no site. Os bancos de dados são: 
+     - **Formulários** - interação do usuário com produtos da loja, formulário de alteração e exclusão de dados do cadastro de usuário, formulário de pagamento
+     - **Produtos** - interação do usuário com informações dos produtos da loja
+     - **Comentários** - feedback do produto feito pelo usuário
+- **News API** - plataforma que permite o acesso às funcionalidades exibidas no site.
+- **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Replit).
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Tela 1) onde ele é confrontado com as opções de "CONTA" e "CARRINHO".
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+Caso ele opte por seguir pelo primeiro caminho "CONTA", ele é redirecionado para a tela LOGIN (Tela 2), onde pode "FAZER LOGIN" ou "CRIAR CONTA". Ao selecionar a opção criar conta ele é redirecionado para a tela CADASTRO (Tela 3), onde ele pode preencher um formulário com seus dados pessoais e enviá-lo clicando no botão enviar para que seja feito o processamento. Assim que o processo termina um pop-up exibe uma mensagem para o usuário dizendo que o cadastro foi realizado (Tela 4), ao fechar o pop-up o usuário é redirecionado para a Tela 1.
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+O segundo caminho que usuário pode seguir é escolher a opção "CARRINHO", ele é redirecionado para a tela CARRINHO (Tela 5), onde pode ver a "QUANTIDADE DE PRODUTOS" escolhidos na Tela 1, "CONTINUAR COMPRANDO" e/ou "FINALIZAR COMPRA". Ao selecionar a opção continuar comprando o usuário é redirecionado para Tela 1. Vale ressaltar que se o usuário não tenha adicionado produtos ao carrinho, ele não verá nenhum produto e consequentemente a opção finalizar compra não estará disponível e só lhe restará a opção continuar comprando.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/Loja-Roupas-User-Flow-Telas.png)
 
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As linguagens utilizadas no desenvolvimento da aplicação web são HTML, CSS e JavaScript. As IDE's escolhidas para a edição do código foram o VS Code e Replit. A primeira pelo fato de ter extensões úteis para o desenvolvimento do software. A segunda por ser uma IDE gratuita online que aceita as linguagens utilizadas, permite integração com o repositório do GitHub e que será utilizada para hospedagem do site. A biblioteca [jQuery](https://jquery.com/) será utilizada para manipular funcionalidades como cliques em botões, textos e imagens. Para que o layout do site seja responsivo, será utilizado o framework web [Bootstrap](https://getbootstrap.com/).
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+`(INSERIR IMAGEM)`**Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.**
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A hospedagem do site será feita na plataforma [Replit](https://replit.com/). A plataforma fornece IDE para a edição do código, integração com o repositório do projeto no GitHub como também a visualização e edição do mesmo código ([Replit Multiplayer](https://blog.replit.com/multi)), o que permite a colaboração da equipe de forma online.
