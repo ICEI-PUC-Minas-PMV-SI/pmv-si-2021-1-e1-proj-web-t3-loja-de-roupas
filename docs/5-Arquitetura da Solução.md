@@ -22,10 +22,10 @@ A solução implementada conta com os seguintes módulos:
      - **Produtos** - interação do usuário com informações dos produtos da loja
      - **Comentários** - feedback do produto feito pelo usuário
    - **Session Storage** - armazenamento não persistente mantido no Navegador, onde são implementados bancos de dados baseados em JSON. Armazenamento destinado ao usuário com cadastro no site. Os bancos de dados são: 
-     - **Formulários** - interação do usuário com produtos da loja, formulário de alteração e exclusão de dados do cadastro de usuário, formulário de pagamento
+     - **Formulários** - formulário de alteração e exclusão de dados do cadastro de usuário, formulário de pagamento
      - **Produtos** - interação do usuário com informações dos produtos da loja
      - **Comentários** - feedback do produto feito pelo usuário
-- **News API** - plataforma que permite o acesso às funcionalidades exibidas no site.
+- **API** - plataforma que permite o acesso às funcionalidades exibidas no site.
 - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador (Replit).
 
 A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial (Tela 1) onde ele é confrontado com as opções de "CONTA" e "CARRINHO".
