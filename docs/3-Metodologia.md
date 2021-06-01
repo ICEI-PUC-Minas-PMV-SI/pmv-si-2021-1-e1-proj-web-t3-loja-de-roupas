@@ -51,7 +51,7 @@ Foi adicionado na aba Projects no GitHub todos os backlogs, coisas a serem feita
 
 As ferramentas empregadas no projeto são:
 
-- Editores de código: GitHub e VS Code.
+- Editores de código: GitHub, VS Code e Replit.
 - Ferramentas de comunicação: Microsoft Teams e WhatsApp.
 - Ferramentas de diagramação: Adobe InDesign e Figma.
 
