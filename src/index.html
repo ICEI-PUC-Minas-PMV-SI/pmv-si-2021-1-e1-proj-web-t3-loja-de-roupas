@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+				<title>Loja de Roupas Femininas</title>
+        <meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<!-- LINK CDN BOOTSTRAP CSS E JS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+				<!-- LINK CSS ESTILO PARA ELEMENTOS SEM IMPORTACAO DO BOOTSTRAP -->
+				<link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+		<main>
+		<!-- HEADER -->
+    	<div class="container-fluid bg-light">
+				<header class="d-flex flex-row justify-content-center">
+      	<a href="index.html" class="nounderline"><h1 class="cabecalho">Loja de Roupas Femininas</h1></a>
+    	</div>
+		<!-- FIM DO HEADER -->
+    <hr>
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand navbar-dark bg-dark " aria-label="navbar">
+    <div class="container-fluid">
+			<div class="navbar-brand" id="logoloja">
+				<a class="navbar-brand" href="index.html" class="nounderline"><img src="" alt="LOGO" class="logo"></a>
+			</div>
+
+			<!-- ESSE BUTTON É NECESSARIO, MAS TALVEZ POSSA DIMINUIR A QUANTIDADE DE ATRIBUTOS -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+			<div class="collapse navbar-collapse nav-pill justify-content-center" id="divpesquisa">
+				<form id="pesquisaproduto">
+          <input class="form-control" type="text" placeholder="Qual produto procura?" aria-label="Pesquisa Produto">
+      	</form>
+			</div>
+
+      <!-- INSERIR ICONES PARA CADA LINK -->
+			<div class="collapse navbar-collapse justify-content-end" id="navbarlinkpaginas">
+				<ul class="navbar-nav">
+        	<li class="nav-item">
+          	<a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+        	</li>
+        	<li class="nav-item">
+          	<a class="nav-link active" href="AR-CONDICIONADO/arcondicionado.html" target="_blank">Conta (ALTERAR PAGINA)</a>
+        	</li>
+					<li class="nav-item">
+          	<a class="nav-link active" href="FOGAO/fogao.html" target="_blank">Carrinho (ALTERAR PAGINA)</a>
+        	</li>
+					<li class="nav-item">
+          	<a class="nav-link active" href="GELADEIRA/geladeira.html" target="_blank">Favoritos (ALTERAR PAGINA)</a>
+        	</li>
+      	</ul>
+			</div>
+    </div>
+  </nav>
+	<!-- FIM DO NAVIGATION BAR -->
+
+	<!-- ESPACO PARA O HISTORICO DE SELECAO DE ITENS -->
+
+	<!-- ESPACO PARA O HISTORICO DE SELECAO DE ITENS -->
+
+	<!-- CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+	<div class="container-fluid" id="conteudo">
+			<div class="col-12">
+				<div class="row">
+    			<div class="col-3 justify-content-center" id="categorias">
+      			<span>CATEGORIAS</span>
+
+						<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    					<a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      					<svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      					<span class="fs-5 fw-semibold">Collapsible</span>
+    					</a>
+    					<ul class="list-unstyled ps-0">
+      					<li class="mb-1">
+        					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+         					Categorias
+        					</button>
+        					<div class="collapse show" id="home-collapse">
+          					<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            					<li><a href="#" class="link-dark rounded">Moda</a></li>
+           						<li><a href="#" class="link-dark rounded">Coleção</a></li>
+            <li><a href="#" class="link-dark rounded">Em alta</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Weekly</a></li>
+            <li><a href="#" class="link-dark rounded">Monthly</a></li>
+            <li><a href="#" class="link-dark rounded">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+        Pedidos
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Novo</a></li>
+            <li><a href="#" class="link-dark rounded">Processado</a></li>
+            <li><a href="#" class="link-dark rounded">Enviado</a></li>
+            <li><a href="#" class="link-dark rounded">Devolvido</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Perfil
+        </button>
+        <div class="collapse" id="account-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New...</a></li>
+            <li><a href="#" class="link-dark rounded">Profile</a></li>
+            <li><a href="#" class="link-dark rounded">Settings</a></li>
+            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+    			</div>
+    			<div class="col-9" id="vitrine">
+     			 		<span>VITRINE</span>
+							<div class="container-fluid ">
+								<div class="row">
+									<div class="col-4 " id="produto">
+										<div>
+											<a class="nounderline" href="">					
+												<div>
+													<img src="https://images.unsplash.com/photo-1601460588655-109bd38204db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="BLUSA" class="produto">
+												</div>
+												<div>
+												Blusa de bolinha
+												</div>
+											</a>
+										</div>
+										<div>
+										PRECO R$ x.xx
+										</div>
+										<div>
+										ADICIONAR AO CARRINHO (BOTAO)
+										</div>
+									</div>
+									<div class="col-4 " id="produto">
+										<div>
+											<a class="nounderline" href="">					
+												<div>
+													<img src="" alt="PRODUTO B (VESTIDO)" class="produto">
+												</div>
+												<div>
+												NOME PRODUTO  
+												</div>
+											</a>
+										</div>
+										<div>
+										PRECO
+										</div>
+										<div>
+										ADICIONAR AO CARRINHO (BOTAO)
+										</div>
+									</div>
+									<div class="col-4 " id="produto">
+										<div>
+											<a class="nounderline" href="">					
+												<div>
+													<img src="" alt="PRODUTO C (SAIA)" class="produto">
+												</div>
+												<div>
+												NOME PRODUTO  
+												</div>
+											</a>
+										</div>
+										<div>
+										PRECO
+										</div>
+										<div>
+										ADICIONAR AO CARRINHO (BOTAO)
+										</div>
+									</div>
+								</div>
+								<div class="row" >
+									<div class="col-4" id="produto">
+									produto
+									</div>
+									<div class="col-4" id="produto">
+									produto
+									</div>
+									<div class="col-4" id="produto">
+									produto
+									</div>
+								</div>
+						</div>
+					</div>
+    		</div>
+			</div>
+	</div>
+	<!-- FIM DO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+
+  <!-- Roda pé call to action -->
+
+  <section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    <div class="container-fluid d-flex flex-row align-items-center p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Frete
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Formas De Pagamento
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Formas De Parcelamento
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Troca Do Produto
+          </button>
+        </p>
+      </section>
+            <section class="">
+        <p class="d-flex  ">
+          <span class="me-3"></span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Informações
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Projeto Loja</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+
+
+    <!--LINKS PARA PAGINA DE CADA PRODUTO DA LOJA-->
+    <h3>Veja alguns de nossos produtos abaixo</h3>
+    <ul>
+        <li><a href="GELADEIRA/geladeira.html" target="_blank">Geladeira</a></li>
+        <li><a href="FOGAO/fogao.html" target="_blank">Fogão</a></li>
+        <li><a href="MAQUINA-LAVAR/maqlavar.html" target="_blank">Máquina de Lavar</a></li>
+        <li><a href="AR-CONDICIONADO/arcondicionado.html" target="_blank">Ar Condicionado</a></li>
+        <li><a href="MICROONDAS/microondas.html" target="_blank">Micro-ondas</a></li>
+        <li><a href="TELEVISAO/televisao.html" target="_blank">Smart TV</a></li>
+    </ul>
+    <hr/>
+    <!--LINKS PARA PAGINA DE PRODUTOS MAIS INTERESSENTES DA LOJA-->
+    <!--NAO APAGAR ESSE CONTEUDO-->
+    <ul style="list-style-type:none">
+        <li><a href="TELEVISAO/televisao42.html" target="_blank">Smart TV 42"</a></li>
+        <li><a href="AR-CONDICIONADO/arcondpreto.html" target="_blank">Ar Condicionado Preto</a></li>
+        <li><a href="MICROONDAS/microprata.html" target="_blank">Micro-ondas Prata</a></li>
+        <li><a href="GELADEIRA/geladeirabranca.html" target="_blank">Geladeira Branca</a></li>
+        <li><a href="FOGAO/fogaobege.html" target="_blank">Fogão Bege</a></li>
+        <li><a href="MAQUINA-LAVAR/maqlavazul.html" target="_blank">Máquina de Lavar Roupa Azul</a></li>
+    </ul><br/><br/>
+    <!--NAO APAGAR ESSE CONTEUDO-->
+    <h3>Confira nossos produtos mais interessantes abaixo</h3> 
+    <!--EM MANUTENCAO-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="TELEVISAO/televisao42.html" target="_blank">Smart TV 42"<br/>
+                <img src="TELEVISAO\televisao-42.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="AR-CONDICIONADO/arcondpreto.html" target="_blank">Ar Condicionado Preto<br/>
+                <img src="AR-CONDICIONADO/ar-cond-preto.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="MICROONDAS/microprata.html" target="_blank">Micro-ondas Prata<br/>
+                <img src="MICROONDAS/micro-prata.jpg"></a>
+            </div>
+            <div class="w-100"></div>
+        </div>
+        <br/><br/>
+        <div class="row">
+            <div class="col">
+                <a href="GELADEIRA/geladeirabranca.html" target="_blank">Geladeira Branca<br/>
+                <img src="GELADEIRA/geladeira-branca.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="FOGAO/fogaobege.html" target="_blank">Fogão Bege<br/>
+                <img src="FOGAO/fogao-bege.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="MAQUINA-LAVAR/maqlavazul.html" target="_blank">Máquina de Lavar Roupa Azul<br/>
+                <img src="MAQUINA-LAVAR/maq-lav-azul.jpg"></a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <br/>
+    
+    
+    
+    <hr/>
+    <br/>
+    <!--CADASTRO DE USUARIO-->
+    <p>Informe seu e-mail abaixo para receber mais informações sobre nossas promoções e novos produtos</p>
+    <br/>
+    <form method="POST">
+    <input type="email" name="email" value="" placeholder="usuario@dominio.com.br" required />
+    <input type="submit" value="Enviar" /><input type="reset" value="Apagar"/>
+    </form>
+    <button onclick="ola()">Olá</button>
+    <script>
+        function ola(){
+            alert("Olá");
+        }
+    </script>
+
+
+<!--
+<style>.row {
+    width: 100%;
+}
+.row::after {
+    content: column; display: table; clear: both;
+    
+    }</style>
+-->
+    <br/>
+
+		</main>
+    </body>
+</html>
+
