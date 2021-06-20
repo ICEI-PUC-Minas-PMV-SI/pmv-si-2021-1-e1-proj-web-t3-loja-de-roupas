@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Loja de Roupas Femininas</title>
+		<!-- LINK CDN BOOTSTRAP 5.0.1 CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<!-- LINK CSS ESTILO PARA ELEMENTOS SEM IMPORTACAO DO BOOTSTRAP -->
+		<link href="src/style.css" rel="stylesheet" type="text/css">
+		<!-- LINK CDN ICONES BOOTSTRAP 1.5.0 -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+		<!-- INICIO HEADER COM BARRA DE NAVEGACAO -->
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light flex-row barranavegacao p-0">
+				<div class="container-fluid p-0 m-0">
+					<div class="row g-0">
+						<div class="container-fluid col-12 col-sm-12 col-md-3 col-lg-3" role="navigation">
+							<a class="navbar-brand d-block m-0 ps-2 py-2" href="#">
+    						<img src="src/img/logo.png" class="img-fluid logo" alt="Logo" title="Logo">
+  						</a>
+						</div>
+						<div class="container-fluid col-12 col-sm-12 col-md-5 col-lg-5" role="navigation">
+							<form class="mb-2">
+								<div class="input-group m-0">
+  								<input type="text" class="form-control" placeholder="Qual produto procura?" maxlength="200" aria-label="Pesquisa" aria-describedby="Pesquisa">
+									<div class="input-group-append">
+										<button class="btn btn-outline-success" type="submit">
+											<i class="bi bi-search"></i>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="container-fluid col-12 col-sm-12 col-md-4 col-lg-4" role="navigation">
+							<button class="navbar-toggler mb-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Link Paginas" id="btnNavMark">
+    						<span class="navbar-toggler-icon"></span>
+  						</button>
+  						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    						<div class="navbar-nav">
+      						<a class="nav-item nav-link" href="#">
+										<i class="bi bi-person-circle"></i><span class="fst-normal fs-6"> Conta</span>
+									</a>
+      						<a class="nav-item nav-link" href="#">
+										<i class="bi bi-cart"></i><span class="fst-normal fs-6"> Carrinho</span>
+									</a>
+      						<a class="nav-item nav-link" href="#">
+										<i class="bi bi-heart"></i><span class="fst-normal fs-6"> Favoritos</span>
+									</a>
+    						</div>
+  						</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- FIM DO HEADER -->
+		<!-- ESPACO PARA O HISTORICO DE SELECAO DE ITENS -->
+
+		<!-- ESPACO PARA O HISTORICO DE SELECAO DE ITENS -->
+		<!-- INICIO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+		<div class="container-fluid px-0" id="conteudo">
+			<div class="row justify-content-center g-0">
+				<!-- INICIO CATEGORIAS -->
+    		<div class="col-4 col-sm-3 col-md-2 col-lg-2 bg-white" id="categoriascoluna">
+					<div class="container-fluid text-center">
+						<button type="button" class="btn btn-primary btn-md mt-2" data-toggle="collapse" data-target="#categorias" id="btncat">Categorias</button>
+						<div id="categorias" class="collapse">
+							<ul class="list-unstyled ps-0">
+      					<li class="mb-1">
+        					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#vestuario-collapse" aria-expanded="true">Vestuário</button>
+        					<div class="collapse" id="vestuario-collapse">
+          					<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="blusas" id="inputblusas">
+  												<label class="form-check-label" for="inputblusas">Blusas</label>
+												</div>
+											</li>
+           						<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="vestidos" id="inputvestidos">
+  												<label class="form-check-label" for="inputvestidos">Vestidos</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="camtop" id="inputcamtop">
+  												<label class="form-check-label" for="inputcamtop">Camisetas e Tops</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="calcas" id="inputcalcas">
+  												<label class="form-check-label" for="inputcalcas">Calças</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="saiashort" id="inputsaiashort">
+  												<label class="form-check-label" for="inputsaiashort">Saias e Shorts</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="pijamas" id="inputpijamas">
+  												<label class="form-check-label" for="inputpijamas">Pijamas e Casuais</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="intimameia" id="inputintimameia">
+  												<label class="form-check-label" for="inputintimameia">Íntimas e Meias</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="banhopiscina" id="inputbanhopiscina">
+  												<label class="form-check-label" for="inputbanhopiscina">Banho e Piscina</label>
+												</div>
+											</li>
+          					</ul>
+        					</div>
+      					</li>
+      					<li class="mb-1">
+        					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#marcas-collapse" aria-expanded="false">Marcas</button>
+        					<div class="collapse " id="marcas-collapse">
+										<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="hering" id="inputhering">
+  												<label class="form-check-label" for="inputhering">Hering</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="malwee" id="inputmalwee">
+  												<label class="form-check-label" for="inputmalwee">Malwee</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="docetrama" id="inputdocetrama">
+  												<label class="form-check-label" for="inputdocetrama">Doce Trama</label>
+												</div>
+											</li>
+          					</ul>
+        					</div>
+      					</li>
+      					<li class="mb-1">
+        					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#cor-collapse" aria-expanded="false">Cor</button>
+        					<div class="collapse" id="cor-collapse">
+          					<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="branco" id="inputbranco">
+  												<label class="form-check-label" for="inputbranco">Branco</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="preto" id="inputpreto">
+  												<label class="form-check-label" for="inputpreto">Preto</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="vermelho" id="inputvermelho">
+  												<label class="form-check-label" for="inputvermelho">Vermelho</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="verde" id="inputverde">
+  												<label class="form-check-label" for="inputverde">Verde</label>
+												</div>
+											</li>
+          					</ul>
+									</div>
+      					</li>
+								<li class="mb-1">
+        					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#tamanho-collapse" aria-expanded="false">Tamanho</button>
+        					<div class="collapse" id="tamanho-collapse">
+          					<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="xp" id="inputxp">
+  												<label class="form-check-label" for="inputxp">XP</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="pp" id="inputpp">
+  												<label class="form-check-label" for="inputpp">PP</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="m" id="inputm">
+  												<label class="form-check-label" for="inputm">M</label>
+												</div>
+											</li>
+            					<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="g" id="inputg">
+  												<label class="form-check-label" for="inputg">G</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="gg" id="inputgg">
+  												<label class="form-check-label" for="inputgg">GG</label>
+												</div>
+											</li>
+											<li>
+												<div class="form-check">
+  												<input class="form-check-input" type="checkbox" value="xg" id="inputxg">
+  												<label class="form-check-label" for="inputxg">XG</label>
+												</div>
+											</li>
+          					</ul>
+									</div>
+      					</li>
+    					</ul>
+						</div>
+					</div>
+				</div>
+				<!-- FIM CATEGORIAS -->
+				<!-- INICIO VITRINE -->
+    		<div class="col-8 col-sm-9 col-md-10 col-lg-10 " id="vitrine">
+					<div class="container-fluid d-block">
+            <div class="text-center">
+          		<h2 class="display-6 fs-4 text-muted m-0">Vitrine da Moda Feminina Nova Coleção Inverno 2021, confira</h2>
+						</div>
+						<div class="text-center">
+            	<a href="#" class="btn btn-secondary btn-sm my-2 mx-3">Moda Inverno 2021</a>
+            	<a href="#" class="btn btn-secondary btn-sm my-2 mx-3">Moda Verão 2021</a>
+						</div>
+					</div>
+					<div class="container-fluid px-0">
+          	<div class="row g-0">
+							<ul class="flex-wrap">
+								<!-- PRIMEIRA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/417x626" data-holder-rendered="true" src="src/img/morena-vestido-vermelho.jpg" alt="Vestido Vermelho Manga Longa" title="Vestido Vermelho Manga Longa">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Vestido manga longa liso vermelho</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 70,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 23,33</strong></p>
+										</div>
+										<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+											<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+											</div>
+										</div>
+									</div>
+              	</div>
+								<!-- SEGUNDA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/575x790" data-holder-rendered="true" src="src/img/loira-vestido-azul.jpg" alt="Vestido Azul Comprido" title="Vestido Azul Comprido">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Vestido comprido sem gola azul</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 70,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 23,33</strong></p>
+                		</div>
+                  	<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+            		<!-- TERCEIRA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/626x939" data-holder-rendered="true" src="src/img/loira-vestido-flor.jpg" alt="Vestido Azul Florido" title="Vestido Azul Florido">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Vestido com manga estampado floral azul</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 70,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 23,33</strong></p>
+										</div>
+                 		<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+								<!-- QUARTA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/626px938" data-holder-rendered="true" src="src/img/loira-vestido-rosa.jpg" alt="Vestido Curto Rosa" title="Vestido Curto Rosa">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Vestido curto sem manga liso rosa</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 70,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 23,33</strong></p>
+                		</div>
+                  	<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+								<!-- QUINTA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/417x626" data-holder-rendered="true" src="src/img/saia-bege.jpg" alt="Saia Média Bege" title="Saia Média Bege">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Saia média bege</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 80,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 27,50</strong></p>
+										</div>
+                 		<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+								<!-- SEXTA IMAGEM -->
+              	<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/626x939" data-holder-rendered="true" src="src/img/conjunto-fitness.jpg" alt="Conjunto Fitness Top e Short" title="Conjunto Fitness Top e Short">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Conjunto Fitness - Top e Short preto</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 65,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 22,33</strong></p>
+										</div>
+                 		<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+								<!-- SETIMA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/626x938" data-holder-rendered="true" src="src/img/conjunto-social.jpg" alt="Conjunto Social - Casaco Saia e Blusa" title="Conjunto Social - Casaco Saia e Blusa">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Casaco, Saia e Blusa de lã marrom e laranja</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 170,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">4x de <strong>R$ 43,33</strong></p>
+										</div>
+                 		<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+								<!-- OITAVA IMAGEM -->
+            		<div class="col-12 col-sm-6 col-md-4">
+              		<div class="card shadow-sm h-100 w-100">
+										<div class="img-card">
+                			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/626x938" data-holder-rendered="true" src="src/img/loira-vestido-bege.jpg" alt="Vestido Bege" title="Vestido Bege">
+										</div>
+                		<div class="card-body">
+											<h6 class="card-title fs-6 my-0">Vestido bege</h6>
+											<hr class="my-1">
+											<p class="card-text"><strong>R$ 60,00</strong> à vista</p>
+											<p class="card-text">ou</p>
+											<p class="card-text">3x de <strong>R$ 21,33</strong></p>
+										</div>
+                 		<div class="d-flex card-footer bg-white border-0 align-items-center justify-content-around">
+                    	<div class="btn-group" role="group" aria-label="Botões de Compra e Favoritos">
+                      	<a href="index.html" id="" class="btn btn-sm btn-outline-secondary comprar me-2"><i class="bi bi-cart-plus"></i> Comprar</a>
+												<a href="index.html" id="" class="btn btn-sm btn-outline-secondary salvar ms-2"><i class="bi bi-heart"></i> Salvar</a>
+                    	</div>
+                  	</div>
+                	</div>
+            		</div>
+							</ul>
+            </div>
+          </div>					
+				</div>
+				<!-- FIM VITRINE -->
+    	</div>
+		</div>
+		<!-- FIM DO CONTEUDO DIVIDIDO EM GRID (CATEGORIAS E VITRINE) -->
+  	<!-- INICIO RODAPÉ -->
+  	<!-- INICIO FOOTER BOTOES -->
+  	<footer class="footer rodapebotoes">
+			<div class="d-flex flex-row flex-xs-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center py-2 px-0 m-0">
+				<div class="row  gx-0 gy-2">
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Frete">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Frete" id="inputfrete">
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Pagamento">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Pagamento" id="inputpagamento">
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Parcelamento">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Formas de Parcelamento" id="inputparcelamento">
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Troca do Produto">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Troca do Produto" id="inputtroca">
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Contato">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Contato" id="inputcontato">
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+						<div class="input-group" role="group" aria-label="Botão Informações sobre a Loja">
+							<input type="button" class="btn btn-sm btn-outline-info" value="Sobre a Loja" id="inputsobre">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FIM FOOTER BOTOES -->
+		<!-- INICIO FOOTER COPYRIGHT -->
+		<footer class="footer rodapecopyright">
+    	<div class="container-fluid text-center py-1">
+				<span class="text-white">© 2021 Copyright: Projeto Loja Virtual Bruthelu</span>
+			</div>
+		</footer>
+		<!-- FIM FOOTER COPYRIGHT -->
+  	<!-- FIM DO RODAPÉ -->
+		<!-- REFERENCIAS PARA SEREM UTILIZADAS
+
+    <h3>Veja alguns de nossos produtos abaixo</h3>
+    <ul>
+        <li><a href="GELADEIRA/geladeira.html" target="_blank">Geladeira</a></li>
+        <li><a href="FOGAO/fogao.html" target="_blank">Fogão</a></li>
+        <li><a href="MAQUINA-LAVAR/maqlavar.html" target="_blank">Máquina de Lavar</a></li>
+        <li><a href="AR-CONDICIONADO/arcondicionado.html" target="_blank">Ar Condicionado</a></li>
+        <li><a href="MICROONDAS/microondas.html" target="_blank">Micro-ondas</a></li>
+        <li><a href="TELEVISAO/televisao.html" target="_blank">Smart TV</a></li>
+    </ul>
+    <hr/>
+    
+    <ul style="list-style-type:none">
+        <li><a href="TELEVISAO/televisao42.html" target="_blank">Smart TV 42"</a></li>
+        <li><a href="AR-CONDICIONADO/arcondpreto.html" target="_blank">Ar Condicionado Preto</a></li>
+        <li><a href="MICROONDAS/microprata.html" target="_blank">Micro-ondas Prata</a></li>
+        <li><a href="GELADEIRA/geladeirabranca.html" target="_blank">Geladeira Branca</a></li>
+        <li><a href="FOGAO/fogaobege.html" target="_blank">Fogão Bege</a></li>
+        <li><a href="MAQUINA-LAVAR/maqlavazul.html" target="_blank">Máquina de Lavar Roupa Azul</a></li>
+    </ul><br/><br/>
+    
+    <h3>Confira nossos produtos mais interessantes abaixo</h3> 
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="TELEVISAO/televisao42.html" target="_blank">Smart TV 42"<br/>
+                <img src="TELEVISAO\televisao-42.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="AR-CONDICIONADO/arcondpreto.html" target="_blank">Ar Condicionado Preto<br/>
+                <img src="AR-CONDICIONADO/ar-cond-preto.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="MICROONDAS/microprata.html" target="_blank">Micro-ondas Prata<br/>
+                <img src="MICROONDAS/micro-prata.jpg"></a>
+            </div>
+            <div class="w-100"></div>
+        </div>
+        <br/><br/>
+        <div class="row">
+            <div class="col">
+                <a href="GELADEIRA/geladeirabranca.html" target="_blank">Geladeira Branca<br/>
+                <img src="GELADEIRA/geladeira-branca.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="FOGAO/fogaobege.html" target="_blank">Fogão Bege<br/>
+                <img src="FOGAO/fogao-bege.jpg"></a>
+            </div>
+            <div class="col">
+                <a href="MAQUINA-LAVAR/maqlavazul.html" target="_blank">Máquina de Lavar Roupa Azul<br/>
+                <img src="MAQUINA-LAVAR/maq-lav-azul.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+    <p>Informe seu e-mail abaixo para receber mais informações sobre nossas promoções e novos produtos</p>
+    <br/>
+    <form method="POST">
+    <input type="email" name="email" value="" placeholder="usuario@dominio.com.br" required />
+    <input type="submit" value="Enviar" /><input type="reset" value="Apagar"/>
+    </form>
+    <button onclick="ola()">Olá</button>
+    <script>
+        function ola(){
+            alert("Olá");
+        }
+    </script>
+
+		-->
+		<!-- LINKS CODE JQUERY 3.3.1, CDN BUNDLE COM POPPER 2.9.2 E BOOTSTRAP JS 5.0.1 -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+		<!-- REFERENCIA PARA ARQUIVO JS -->
+		<script src="src/javascript.js"></script>
+  </body>
+</html>
