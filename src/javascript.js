@@ -32,3 +32,20 @@ window.setTimeout(function() {
     alert("informacoes");
   });
 })
+
+/*
+let checkbox = document.getElementById("lembrar");
+let botaoLogin = document.getElementById("btnLogin");
+
+document.getElementById("btnLogin").addEventListener("click", lembrar);
+
+function lembrar() {
+
+if(checkbox.checked && botaoLogin.click()) {
+    console.log("O cliente marcou o checkbox");
+}
+else {
+    console.log("O cliente não marcou o checkbox");
+}
+}
+*/

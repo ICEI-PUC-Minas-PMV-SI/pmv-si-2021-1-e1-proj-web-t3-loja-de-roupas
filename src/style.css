@@ -207,3 +207,15 @@ nav .row div.container-fluid {
 	text-align: center;	
 	align-self: center;
 }
+
+#emailLogin, #senhaLogin, #btnLogin, #btnCadastro {
+	width: 300px;
+}
+
+.form-login {
+	display: inline-block;
+}
+
+body div.container-fluid > div.row > div.cadastro {
+	align-self: center;
+}
