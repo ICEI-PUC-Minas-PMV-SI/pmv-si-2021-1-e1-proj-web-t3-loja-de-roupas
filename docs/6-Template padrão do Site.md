@@ -1,12 +1,19 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+Segue em imagens fotos do site:
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Foto do site em um navegador web por um computador:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![Foto 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-loja-de-roupas/blob/main/docs/img/print%20da%20tela.png?raw=true)
+
+---------------------------
+
+Foto do site em um navegador web por um celular ou ipad:
+
+![Foto 2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-loja-de-roupas/blob/main/docs/img/print%20da%20tela%203.png?raw=true)
+
+---------------------------
+
+Foto do site em um navegador web mostrando as categorias do site:
+
+![Foto 3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-1-e1-proj-web-t3-loja-de-roupas/blob/main/docs/img/print%20da%20tela%20com%20categorias.png?raw=true)
