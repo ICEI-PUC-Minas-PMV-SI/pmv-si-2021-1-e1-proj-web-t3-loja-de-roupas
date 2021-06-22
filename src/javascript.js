@@ -33,6 +33,16 @@ window.setTimeout(function() {
   });
 })
 
+let form = document.getElementById("cadastro");
+
+form.addEventListener("submit", (event) => {
+   event.preventDefault();
+
+
+});
+
+
+
 /*
 let checkbox = document.getElementById("lembrar");
 let botaoLogin = document.getElementById("btnLogin");
