@@ -44,7 +44,7 @@
 }
 
 .barranavegacao {
-  background-image: url(/docs/img/background_cabeçalho.png); background-repeat: round; 
+  background-image: url(/docs/img/background_cabeçalho.png); background-repeat: round;
 }
 
 .rodapebotoes {
@@ -52,7 +52,7 @@
 }
 
 .rodapecopyright {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255); font-size: small;
 }
 
 input:focus, .btn:focus, select:focus {

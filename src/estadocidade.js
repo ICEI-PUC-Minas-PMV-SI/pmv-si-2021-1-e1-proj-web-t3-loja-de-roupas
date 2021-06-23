@@ -5738,8 +5738,8 @@ var json_cidades = {
 
 function buscaCidades(e) {
 
-   document.querySelector("#cidade").innerHTML = ' ';
-   var cidade_select = document.querySelector("#cidade");
+   document.querySelector("#inputCidade").innerHTML = ' ';
+   var cidade_select = document.querySelector("#inputCidade");
 
    var num_estados = json_cidades.estados.length;
    var j_index = -1;
@@ -5763,6 +5763,6 @@ function buscaCidades(e) {
    	}
 		
 		else {
-      document.querySelector("#cidade").innerHTML = ' ';
+      document.querySelector("#inputCidade").innerHTML = ' ';
    }
 }
