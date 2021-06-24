@@ -34,6 +34,27 @@ window.setTimeout(function() {
 })
 
 /*
+
+let form = document.getElementById("cadastro");
+
+form.addEventListener("submit", (event) => {
+   event.preventDefault();
+
+
+});
+*/
+
+/*
+
+function alertform() {
+		
+ 			alert("Cadastro concluído");
+
+		}
+
+*/
+
+/*
 let checkbox = document.getElementById("lembrar");
 let botaoLogin = document.getElementById("btnLogin");
 

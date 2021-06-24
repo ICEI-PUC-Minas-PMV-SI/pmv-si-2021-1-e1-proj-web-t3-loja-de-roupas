@@ -44,7 +44,7 @@
 }
 
 .barranavegacao {
-	background-color: #BBDAE7;
+  background-image: url(/docs/img/background_cabeçalho.png); background-repeat: round;
 }
 
 .rodapebotoes {
@@ -52,7 +52,7 @@
 }
 
 .rodapecopyright {
-	background-color: #96BACA;
+	background-color: rgb(255, 255, 255); font-size: small;
 }
 
 input:focus, .btn:focus, select:focus {
@@ -164,7 +164,7 @@ footer div.input-group input.btn {
 
 #categorias ul {
 	display: block;	
-	margin: 0px;
+	margin: 12px;
 }
 
 div.form-check {	
@@ -206,10 +206,11 @@ nav > div {
 nav .row div.container-fluid {
 	text-align: center;	
 	align-self: center;
+  
 }
 
 #emailLogin, #senhaLogin, #btnLogin, #btnCadastro {
-	width: 300px;
+	width: 400px;
 }
 
 .form-login {
