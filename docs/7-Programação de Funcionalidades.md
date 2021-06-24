@@ -1,5 +1,11 @@
 # Programação de Funcionalidades
 
+O site tem os seguintes ìcones:
+
++ "Conta" permite que o usuário ao clicar seja direcionado para a página da Conta de usuário, onde poderá ser feito o Login no site ou o Cadastro dos dados pessoais.
++ "Carrinho" permite que o usuário ao clicar seja direcionado para a página do Carrinho de compras, onde poderá visualizar e comprar o(s) pruduto(s) selecionados pela vitrine, e finalizar todo processo de compra complementando as informações necessárias.
++ "Favoritos" permite que o usuário ao clicar seja direcionado para a página de Favoritos, onde poderá visualizar o(s) produto(s) de sua preferência que foi selecionado pela vitrine.
+
 O site tem os seguintes botões:
 
 + "Frete" permite que o usuário clique e visualize quais são as regras de frete.
