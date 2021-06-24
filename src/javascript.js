@@ -32,6 +32,7 @@ window.setTimeout(function() {
     alert("informacoes");
   });
 })
+
 /*
 
 let form = document.getElementById("cadastro");
@@ -43,32 +44,15 @@ form.addEventListener("submit", (event) => {
 });
 */
 
-var regex = new RegExp('^\\(((1[1-9])|([2-9][0-9]))\\)((3[0-9]{3}-[0-9]{4})|(9[0-9]{3}-[0-9]{5}))$');
-var celular = document.getElementById("inputCelular");
-regex = celular;
-var telefone = '(31)93233-4343';
-
-var alertacelular = document.getElementById("alertacel").innerText;
-
-
-function validPhone(celular) {
-    var regex = new RegExp('^\\(((1[1-9])|([2-9][0-9]))\\)((3[0-9]{3}-[0-9]{4})|(9[0-9]{3}-[0-9]{5}))$');
-    return regex.test(celular);
-}
+/*
 
 function alertform() {
-
-		if (celular != validPhone(celular)) {
-			alert(alertacelular);
-		}
-		/*
- 		else {
-			
+		
  			alert("Cadastro concluído");
 
-		}*/
-}
+		}
 
+*/
 
 /*
 let checkbox = document.getElementById("lembrar");
