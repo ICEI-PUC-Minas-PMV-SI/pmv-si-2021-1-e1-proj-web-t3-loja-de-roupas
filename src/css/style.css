@@ -43,8 +43,9 @@
 	height: 100px;
 }
 
-.barranavegacao {
-  background-image: url(/docs/img/background_cabeçalho.png); background-repeat: round;
+
+nav.img-fluid, nav.img-responsive {
+	background: url("../img/background_cabecalho.jpg");
 }
 
 .rodapebotoes {
@@ -72,13 +73,14 @@ div#conteudo div.row span.fw-semibold {
 	position: static;
 	border: 0px;
 	max-width: 220px;
-	max-height: 530px;
+	max-height: 510px;
 }
 
 #vitrine div.col-12 {
-	flex-basis: content;	
+	width: 220px;
+	height: 510px;
 	padding: 0px;
-	margin: 2px;
+	margin: 10px;
 }
 
 .card div.img-card {
