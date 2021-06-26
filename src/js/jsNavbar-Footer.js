@@ -32,3 +32,22 @@ window.setTimeout(function() {
     alert("informacoes");
   });
 })
+
+/*
+
+* PRECISA DOS PRODUTOS EM UM JSON PARA ISSO FUNCIONAR 
+
+const pesquisa = document.querySelector("#pesquisa");
+
+
+
+function adicionaitem() {
+																														//(NAO DESSA FORMA EXATAMENTE)
+	if (pesquisa.value == "") {
+		alert("por favor preencha o campo pesquisa");
+		pesquisa.focus;
+		return;
+	}
+}
+
+*/

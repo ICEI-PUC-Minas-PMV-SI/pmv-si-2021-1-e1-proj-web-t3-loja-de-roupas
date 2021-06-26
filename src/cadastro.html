@@ -25,10 +25,10 @@
 						<div class="container-fluid col-12 col-sm-12 col-md-5 col-lg-5" role="navigation">
 							<form class="mb-2">
 								<div class="input-group m-0">
-  								<input type="text" class="form-control" placeholder="Qual produto procura?" maxlength="200" aria-label="Pesquisa" aria-describedby="Pesquisa">
+  								<input type="text" class="form-control" placeholder="Qual produto procura?" maxlength="30" aria-label="Pesquisa" aria-describedby="Pesquisa">
 									<div class="input-group-append">
 										<button class="btn btn-outline-success" type="submit">
-											<i class="bi bi-search"></i>
+											<i class="bi bi-search"></i><span class="vazio">.</span>
 										</button>
 									</div>
 								</div>
@@ -145,8 +145,13 @@
               	<label for="inputCEP" class="form-label">CEP<span class="text-muted"> (Opcional)</span></label>
               	<input type="text" class="form-control" id="inputCEP" value="" placeholder="">
             	</div>
-							<input class="w-100 btn btn-primary btn-lg" type="submit" value="Enviar" id="inputSubmit" onclick="alertform()">
+							<input class="w-100 btn btn-primary bt btn-lg a" type="submit" value="Enviar" id="inputSubmit" onclick="alertform()">
           	</div>
+            <br>
+            <a href="conta.html">
+							<button class="btn btn-lg btn-primary" type="button" id="voltamenu">Voltar a tela da conta de usuário</button>
+						</a>
+					</div>
         	</form>
       	</div>
     	</div>

@@ -69,7 +69,7 @@ div#conteudo div.row span.fw-semibold {
 	text-align: center;
 }
 
-.card {
+div.row ul.flex-wrap div.card {
 	position: static;
 	border: 0px;
 	max-width: 220px;
@@ -208,7 +208,6 @@ nav > div {
 nav .row div.container-fluid {
 	text-align: center;	
 	align-self: center;
-  
 }
 
 #emailLogin, #senhaLogin, #btnLogin, #btnCadastro {
@@ -221,4 +220,8 @@ nav .row div.container-fluid {
 
 body div.container-fluid > div.row > div.cadastro {
 	align-self: center;
+}
+
+nav form button span.vazio {
+	display: none;
 }

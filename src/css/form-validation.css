@@ -1,3 +1,4 @@
-.container {
-  max-width: 960px;
+body > div.container-fluid {
+  padding-top: .75rem;
+	padding-bottom: .75rem;
 }
