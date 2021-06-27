@@ -6,21 +6,21 @@
 `DIAGRAMA DE CASO DE USO`
 ![Diagrama de caso de uso](img/diagrama-caso-uso.png)
 
-`PRINT PAGINAS TESE DE SOFTWARE`
+`PRINT PAGINAS TESTE DE SOFTWARE`
 `Teste_de_Software_Cadastro_de_Usuário`
-(img/Teste_de_Software_Cadastro_de_Usuário.png)
+!(img/Teste_de_Software_Cadastro_de_Usuário.png)
 
 `Teste_de_Software_Conta_de_Usuário`
-(img/Teste_de_Software_Conta_de_Usuário.png)
+!(img/Teste_de_Software_Conta_de_Usuário.png)
 
 `Teste_de_Software_Barra_de_Navegação`
-(img/Teste_de_Software_Barra_de_Navegação.png)
+!(img/Teste_de_Software_Barra_de_Navegação.png)
 
 `Teste_de_Software_Escolher_Forma_de_Pagamento`
-(img/Teste_de_Software_Escolher_Forma_de_Pagamento.png)
+!(img/Teste_de_Software_Escolher_Forma_de_Pagamento.png)
 
 `Teste_de_Software_Botão_Frete`
-(img/Teste_de_Software_Botão_Frete.png)
+!(img/Teste_de_Software_Botão_Frete.png)
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
