@@ -28,7 +28,7 @@ Abaixo a representação da tela no momento do teste:
 
 Figura 01 - Tela Cadastro com campos nome e CEP com dados fora do padrão
 
-![Tela Cadastro e LocalStorage](img/print-cadastro-localstorage.png)
+![Tela Cadastro e LocalStorage](img/print-cadastro-localstorage.PNG)
 
 Figura 02 - Tela Cadastro e LocalStorage com os dados armazenados
 
@@ -68,6 +68,6 @@ O botão interativo das informações de frete da loja está funcionado corretam
 
 Abaixo a representação da tela no momento do teste:
 
-![Tela Inicial - Frete](img/print-frete-falha.png)
+![Tela Inicial - Frete](img/print-frete-falha.PNG)
 
 Figura 06 - Tela Inicial com mensagem "frete" exibida pelo sistema
