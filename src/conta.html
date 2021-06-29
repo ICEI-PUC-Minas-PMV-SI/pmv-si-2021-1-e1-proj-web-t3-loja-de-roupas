@@ -3,17 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Conta</title>
 		<!-- LINK CDN BOOTSTRAP 5.0.1 CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 		<!-- LINK CSS ESTILO PARA ELEMENTOS SEM IMPORTACAO DO BOOTSTRAP -->
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<!-- LINK CDN ICONES BOOTSTRAP 1.5.0 -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-md navbar-light flex-row barranavegacao p-0">
+			<nav class="navbar navbar-expand-md navbar-light flex-row img-fluid img-responsive p-0">
 				<div class="container-fluid p-0 m-0">
 					<div class="row g-0">
 						<div class="container-fluid col-12 col-sm-12 col-md-3 col-lg-3" role="navigation">
@@ -24,10 +25,10 @@
 						<div class="container-fluid col-12 col-sm-12 col-md-5 col-lg-5" role="navigation">
 							<form class="mb-2">
 								<div class="input-group m-0">
-  								<input type="text" class="form-control" placeholder="Qual produto procura?" maxlength="200" aria-label="Pesquisa" aria-describedby="Pesquisa">
+  								<input type="text" class="form-control" placeholder="Qual produto procura?" maxlength="30" aria-label="Pesquisa" aria-describedby="Pesquisa">
 									<div class="input-group-append">
 										<button class="btn btn-outline-success" type="submit">
-											<i class="bi bi-search"></i>
+											<i class="bi bi-search"></i><span class="vazio">.</span>
 										</button>
 									</div>
 								</div>
@@ -42,10 +43,10 @@
       						<a class="nav-item nav-link" href="conta.html">
 										<i class="bi bi-person-circle"></i><span class="fst-normal fs-6"> Conta</span>
 									</a>
-      						<a class="nav-item nav-link" href="#">
+      						<a class="nav-item nav-link" href="carrinho.html">
 										<i class="bi bi-cart"></i><span class="fst-normal fs-6"> Carrinho</span>
 									</a>
-      						<a class="nav-item nav-link" href="#">
+      						<a class="nav-item nav-link" href="favoritos.html">
 										<i class="bi bi-heart"></i><span class="fst-normal fs-6"> Favoritos</span>
 									</a>
     						</div>
@@ -55,9 +56,9 @@
 				</div>
 			</nav>
 		</header>
-    
-		<div class="container-fluid">    
-			<h1 class="text-center fs-4 fw-normal m-0">Faça login ou realize cadastro senão clique na logomarca para voltar</h1>
+    <br><br>
+		<div class="container-fluid">
+			<h1 class="text-center fs-4 fw-normal m-0">Conta do usuário</h1>
 			<hr class="my-2">
 			<div class="row">
 				<div class="col-12 col-md-6 text-center py-2">
@@ -71,7 +72,7 @@
       				<input type="password" class="form-control" id="senhaLogin" placeholder="Senha">
       				<label for="senhaLogin">Senha</label>
     				</div>
-    				<div class="checkbox mb-3">	
+    				<div class="checkbox mb-3">
         			<input type="checkbox" value="lembrar" id="lembrar">
 							<label for="lembrar">Lembre de mim</label>
     				</div>
@@ -84,10 +85,15 @@
 						<a href="cadastro.html">
 							<button class="btn btn-lg btn-primary" type="button" id="btnCadastro">Cadastrar</button>
 						</a>
+            <br><br><br><br>
+            <a href="/index.html">
+							<button class="btn btn-lg btn-primary" type="button" id="voltamenu">Voltar a tela principal</button>
+						</a>
 					</div>
 				</div>
       </div>
 		</div>
+    <br><br>
 		<footer class="footer rodapebotoes">
 			<div class="d-flex flex-row flex-xs-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center py-2 px-0 m-0">
 				<div class="row  gx-0 gy-2">
@@ -129,9 +135,10 @@
 				<span class="text">© 2021 Copyright: Projeto Loja Virtual Bruthelu</span>
 			</div>
 		</footer>
+		<!-- LINKS CODE JQUERY 3.3.1, CDN BUNDLE COM POPPER 2.9.2 E BOOTSTRAP JS 5.0.1 -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 		<!-- REFERENCIA PARA ARQUIVO JS -->
-		<script src="javascript.js"></script>
+		<script src="js/jsNavbar-Footer.js"></script>
 	</body>
 </html>

@@ -1,3 +1,4 @@
+// JSON ARRAY DOS ESTADOS E RESPECTIVAS CIDADES
 var json_cidades = {
   "estados": [
     {
@@ -5734,8 +5735,8 @@ var json_cidades = {
     }
   ]
 }
-// FIM DO .json
 
+// FUNÇÃO QUE OFERECE AO USUÁRIO ESCOLHER A CIDADE DE ACORDO COM ESTADO SELECIONADO
 function buscaCidades(e) {
 
    document.querySelector("#inputCidade").innerHTML = ' ';
@@ -5744,7 +5745,7 @@ function buscaCidades(e) {
    var num_estados = json_cidades.estados.length;
    var j_index = -1;
 
-   // INDEX DO ESTADO DENTRO DO JSON
+   // INDEX DO ESTADO DENTRO DO JSON ARRAY
    for(var x = 0; x < num_estados; x++) {
       if(json_cidades.estados[x].sigla == e) {
          j_index = x;
@@ -5753,7 +5754,8 @@ function buscaCidades(e) {
 
    if(j_index != -1) {
   
-      // PASSA POR TODAS AS CIDADES CRIANDO OS OPTIONS
+      // PASSA POR TODAS AS CIDADES DO ESTADO SELECIONADO,
+			// CRIA UM ELEMENTO OPTION E ADICIONA UM VALUE A TODAS ELAS
       json_cidades.estados[j_index].cidades.forEach(function(cidade) {
          var cid_opts = document.createElement('option');
          cid_opts.setAttribute('value',cidade)

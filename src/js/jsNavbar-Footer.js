@@ -35,38 +35,19 @@ window.setTimeout(function() {
 
 /*
 
-let form = document.getElementById("cadastro");
+* PRECISA DOS PRODUTOS EM UM JSON PARA ISSO FUNCIONAR 
 
-form.addEventListener("submit", (event) => {
-   event.preventDefault();
+const pesquisa = document.querySelector("#pesquisa");
 
 
-});
-*/
 
-/*
-
-function alertform() {
-		
- 			alert("Cadastro concluído");
-
-		}
-
-*/
-
-/*
-let checkbox = document.getElementById("lembrar");
-let botaoLogin = document.getElementById("btnLogin");
-
-document.getElementById("btnLogin").addEventListener("click", lembrar);
-
-function lembrar() {
-
-if(checkbox.checked && botaoLogin.click()) {
-    console.log("O cliente marcou o checkbox");
+function adicionaitem() {
+																														//(NAO DESSA FORMA EXATAMENTE)
+	if (pesquisa.value == "") {
+		alert("por favor preencha o campo pesquisa");
+		pesquisa.focus;
+		return;
+	}
 }
-else {
-    console.log("O cliente não marcou o checkbox");
-}
-}
+
 */
