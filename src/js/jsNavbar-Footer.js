@@ -14,22 +14,22 @@ window.setTimeout(function() {
 
 window.setTimeout(function() {
   $("#inputfrete").click(function() {
-    alert("frete");
-  }); 
+    alert("O frete para as capitais e regiões metropolitanas será de R$ 3,99 e para outras regiões será de R$ 6,99.");
+  });
   $("#inputpagamento").click(function() {
-    alert("pagamento");
+    alert("O pagamento pode ser realizado de duas formas:\n\n1- Cartão de crédito\n2- Boleto bancário");
   });
   $("#inputparcelamento").click(function() {
-    alert("parcelamento");
+    alert("Nas compras parceladas são aceitos os cartões de crédito das bandeiras Mastercard, Visa, American Express, Hipercard e Elo. O pagamento pode ser feito em até 12 parcelas sem juros.");
   });
   $("#inputtroca").click(function() {
-    alert("troca");
+    alert("Caso queira efetuar a troca de algum produto, o prazo é de até 120 dias após o recebimento. Para realizar o pedido de troca entre em contato com o suporte da loja.");
   });
 	$("#inputcontato").click(function() {
-    alert("contato");
+    alert("Se estiver com dúvidas, nos envie um e-mail ou nos ligue:\n\nemail@lojabruthelu.com.br\n\n(00) 91234-5678");
   });
   $("#inputsobre").click(function() {
-    alert("informacoes");
+    alert("A Loja Bruthelu´s Moda Feminina é uma loja de roupas femininas fictícia.");
   });
 })
 
