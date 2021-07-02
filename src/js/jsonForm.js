@@ -9,10 +9,6 @@ const inputCidade = document.querySelector("#inputCidade");
 const inputCEP = document.querySelector("#inputCEP");
 const inputSubmit = document.querySelector("#inputSubmit");
 
-
-
-
-
 /* Função responsável por salvar os dados */
 inputSubmit.addEventListener("click", _ => {
 
