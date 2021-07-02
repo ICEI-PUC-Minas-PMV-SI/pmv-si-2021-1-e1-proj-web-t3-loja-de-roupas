@@ -95,6 +95,8 @@ function ApenasNumerosCEP(e, t) {
 
 const nome = document.querySelector("#inputNome");
 const alertNome = document.querySelector("#alertNome").innerHTML;
+const nome = document.querySelector("#inputUsuario");
+const alertNome = document.querySelector("#alertUsuario").innerHTML;
 const email = document.querySelector("#inputEmail");
 const alertEmail = document.querySelector("#alertEmail").innerHTML;
 const ddd = document.querySelector("#inputDDD");
@@ -113,6 +115,11 @@ function alertForm() {
 
 	if (nome.value == "") {
 		alert(alertNome);
+		nome.focus;
+		return;
+	}
+  if (nome.value == "") {
+		alert(alertUsuario);
 		nome.focus;
 		return;
 	}
