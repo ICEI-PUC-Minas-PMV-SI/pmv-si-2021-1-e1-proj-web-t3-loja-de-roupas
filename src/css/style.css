@@ -196,9 +196,9 @@ nav div.input-group, nav input {
 
 nav input.form-control {
 	position: static !important;
-	width: 250px !important;
-	flex-grow: 0 !important;
-	flex-shrink: 0 !important;
+	max-width: 250px !important;
+	flex-grow: 1 !important;
+	flex-shrink: 1 !important;
 }
 
 nav > div {
@@ -224,4 +224,19 @@ body div.container-fluid > div.row > div.cadastro {
 
 nav form button span.vazio {
 	display: none;
+}
+
+div.navbar-nav div.row {
+	flex-wrap: wrap;
+	margin: 0;
+	width: inherit;
+
+}
+
+.nav-item {
+	flex-shrink: 0;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-right: 0.25em !important;
+	padding-left: 0.25em !important;
 }
