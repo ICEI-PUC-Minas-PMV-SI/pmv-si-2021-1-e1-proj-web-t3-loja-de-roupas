@@ -20,15 +20,15 @@
 					<div class="row g-0">
 						<div class="container-fluid col-12 col-sm-12 col-md-3 col-lg-3" role="navigation">
 							<a class="navbar-brand d-block m-0 px-2 py-2" href="#">
-    						<img src="src/img/logo.png" class="img-fluid logo" alt="Logo" title="Logo">
+    						<img src="src/img/logo.jpeg" class="img logo" alt="Logo" title="Logo">
   						</a>
 						</div>
 						<div class="container-fluid col-12 col-sm-12 col-md-4 col-lg-5 pt-3" role="navigation">
-							<form class="mb-2" action="src/carrinho.html" method="post">
+							<form class="mb-2" action="" method="">
 								<div class="input-group m-0">
-  								<input type="text" class="form-control" id="pesquisa" placeholder="Qual produto procura?" maxlength="30" aria-label="Pesquisa" aria-describedby="Pesquisa" value="">
+  								<input type="text" class="form-control" id="inputPesquisa" placeholder="Qual produto procura?" maxlength="30" aria-label="Pesquisa" aria-describedby="Pesquisa" value="">
 									<div class="input-group-append">
-										<button class="btn btn-outline-success" type="submit" onclick="adicionaitem()">
+										<button class="btn btn-outline-success" type="submit" id="btnPesquisa" onclick="AdicionaItem()">
 											<i class="bi bi-search"></i><span class="vazio">.</span>
 										</button>
 									</div>
@@ -256,10 +256,13 @@
 					</div>
 					<div class="container-fluid px-0">
           	<div class="row g-0">
-							<ul class="flex-wrap">
+							<ul id="listaprodutos" class="list-unstyled flex-nowrap">
 								<!-- PRIMEIRA IMAGEM -->
-            		<div class="col-12 col-sm-6 col-md-3">
-              		<div class="card shadow-sm h-100 w-100">
+								
+									
+            		<!--<div class="col-12 col-sm-6 col-md-3">-->
+									<li class="itemlista">
+              		<div class="card shadow-sm h-100">
 										<div class="img-card">
                 			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/417x626" data-holder-rendered="true" src="src/img/morena-vestido-vermelho.jpg" alt="Vestido Vermelho Manga Longa" title="Vestido Vermelho Manga Longa">
 										</div>
@@ -277,10 +280,12 @@
 											</div>
 										</div>
 									</div>
-              	</div>
+									</li>
+              	<!--</div>-->
 								<!-- SEGUNDA IMAGEM -->
-            		<div class="col-12 col-sm-6 col-md-3">
-              		<div class="card shadow-sm h-100 w-100">
+            		<!--<div class="col-12 col-sm-6 col-md-3">-->
+									<li class="itemlista">
+              		<div class="card shadow-sm h-100">
 										<div class="img-card">
                 			<img class="card-img-top img-thumbnail img-responsive" data-src="holder.js/575x790" data-holder-rendered="true" src="src/img/loira-vestido-azul.jpg" alt="Vestido Azul Comprido" title="Vestido Azul Comprido">
 										</div>
@@ -298,7 +303,9 @@
                     	</div>
                   	</div>
                 	</div>
-            		</div>
+									</li>
+									</ul>
+            		<!--</div>-->
             		<!-- TERCEIRA IMAGEM -->
             		<div class="col-12 col-sm-6 col-md-3">
               		<div class="card shadow-sm h-100 w-100">
@@ -425,7 +432,7 @@
                   	</div>
                 	</div>
             		</div>
-							</ul>
+								
             </div>
           </div>					
 				</div>
@@ -487,5 +494,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 		<!-- REFERENCIA PARA ARQUIVO JS -->
 		<script src="src/js/jsNavbar-Footer.js"></script>
+		<script src="src/js/produtos.js"></script>
   </body>
 </html>

@@ -69,7 +69,7 @@ div#conteudo div.row span.fw-semibold {
 	text-align: center;
 }
 
-div.row ul.flex-wrap div.card {
+div.row table div.card {
 	position: static;
 	border: 0px;
 	max-width: 220px;
@@ -210,8 +210,10 @@ nav .row div.container-fluid {
 	align-self: center;
 }
 
-#emailLogin, #senhaLogin, #btnLogin, #btnCadastro {
-	width: 400px;
+#loginEmail, #loginSenha, #btnLogin, #btnCadastro {
+	width: 100%;
+	flex-grow: 1;
+	flex-shrink: 1;
 }
 
 .form-login {
@@ -230,7 +232,6 @@ div.navbar-nav div.row {
 	flex-wrap: wrap;
 	margin: 0;
 	width: inherit;
-
 }
 
 .nav-item {
@@ -239,4 +240,13 @@ div.navbar-nav div.row {
 	padding-bottom: 0.25em;
 	padding-right: 0.25em !important;
 	padding-left: 0.25em !important;
+}
+
+div.container-fluid form.form div.form-group > label {
+	display: block;
+	text-align: start;
+}
+
+table {
+	max-width: 225px !important;
 }

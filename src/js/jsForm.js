@@ -93,7 +93,7 @@ function ApenasNumerosCEP(e, t) {
   }
 }
 
-// VIACEP WEBSERVICE - FUNÇÃO QUE PROCURA O CEP VAI SERVIÇO WEB E ACUSA SE O CEP EXISTE OU NÃO
+// VIACEP WEBSERVICE - FUNÇÃO QUE PROCURA O CEP VIA WEBSERVICE E ACUSA SE O CEP EXISTE OU NÃO
 
 function limpa_formulario_cep() {
             //Limpa valores do formulário de cep.
@@ -160,7 +160,7 @@ function limpa_formulario_cep() {
         }
     }
 
-/* DECLARAÇÃO DOS ELEMENTOS INPUT E TEXTOS DE ALERTA NO HTML */
+/* DECLARAÇÃO DOS ELEMENTOS INPUT E TEXTOS DE ALERTA NO HTML 
 
 const nome = document.querySelector("#inputNome");
 const alertNome = document.querySelector("#alertNome").innerHTML;
@@ -172,9 +172,9 @@ const celular = document.querySelector("#inputCelular");
 const alertCelular = document.querySelector("#alertCelular").innerHTML;
 const cep = document.querySelector("#inputCEP");
 const alertCEP = document.querySelector("#alertCEP").innerHTML;
+*/
 
-
-/* FUNÇÃO QUE ALERTA O USUÁRIO CASO NÃO TENHA PREENCHIDO OS CAMPOS OBRIGATÓRIOS */
+/* FUNÇÃO QUE ALERTA O USUÁRIO CASO NÃO TENHA PREENCHIDO OS CAMPOS OBRIGATÓRIOS 
 // CASO TENHA PREENCHIDO CORRETAMENTE O FORMULÁRIO, 
 // OS DADOS SÃO SALVOS NO LOCAL STORAGE EM FORMATO JSON/ARRAY APÓS CLICAR NO BOTÃO ENVIAR
 
@@ -211,11 +211,15 @@ function alertForm() {
 	}
 }
 
-/* FUNÇÃO PARA ENVIAR O FORMULÁRIO CASO ESTEJA TUDO OK */
+*/
+
+/* FUNÇÃO PARA ENVIAR O FORMULÁRIO CASO ESTEJA TUDO OK 
 
 function formularioOk() {
 	alert("Cadastro concluído");
 }
+*/
+
 
 /*
 let checkbox = document.getElementById("lembrar");
